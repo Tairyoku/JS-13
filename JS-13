@@ -1,0 +1,4 @@
+function hexToDec(hex) {
+  return parseInt('0x' + hex, 16);
+}
+alert(hexToDec('10'));
